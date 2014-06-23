@@ -73,6 +73,6 @@ Example Project
 ================
 Check out the provided example to see how MSMotionScroller is used to scroll a table view and open a sliding menu.
 
-Contribuite!
+Contribute!
 ================
 If you wish to contribute please feel free to contact me. I'd love have you onboard!
