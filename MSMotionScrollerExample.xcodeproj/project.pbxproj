@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A07BCA6C19533CDC00AB88A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07BCA6B19533CDC00AB88A0 /* Foundation.framework */; };
+		A07BCA6E19533CDC00AB88A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07BCA6D19533CDC00AB88A0 /* CoreGraphics.framework */; };
+		A07BCA7019533CDC00AB88A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07BCA6F19533CDC00AB88A0 /* UIKit.framework */; };
+		A07BCA7619533CDC00AB88A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A07BCA7419533CDC00AB88A0 /* InfoPlist.strings */; };
+		A07BCA7819533CDC00AB88A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A07BCA7719533CDC00AB88A0 /* main.m */; };
+		A07BCA7C19533CDC00AB88A0 /* MSMotionScrollerExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A07BCA7B19533CDC00AB88A0 /* MSMotionScrollerExampleAppDelegate.m */; };
+		A07BCA8219533CDC00AB88A0 /* MSMotionScrollerExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07BCA8119533CDC00AB88A0 /* MSMotionScrollerExampleViewController.m */; };
+		A07BCA8419533CDD00AB88A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07BCA8319533CDD00AB88A0 /* Images.xcassets */; };
+		A07BCAA219533CEE00AB88A0 /* MSMotionScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = A07BCAA119533CEE00AB88A0 /* MSMotionScroller.m */; };
+		A07BCAA419533D0B00AB88A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07BCAA319533D0B00AB88A0 /* Main.storyboard */; };
+		A07BCAA81953407200AB88A0 /* MSMotionScrollerMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07BCAA71953407200AB88A0 /* MSMotionScrollerMenuViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A07BCA6819533CDC00AB88A0 /* MSMotionScrollerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSMotionScrollerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07BCA6B19533CDC00AB88A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A07BCA6D19533CDC00AB88A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A07BCA6F19533CDC00AB88A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A07BCA7319533CDC00AB88A0 /* MSMotionScrollerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MSMotionScrollerExample-Info.plist"; sourceTree = "<group>"; };
+		A07BCA7519533CDC00AB88A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A07BCA7719533CDC00AB88A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A07BCA7919533CDC00AB88A0 /* MSMotionScrollerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MSMotionScrollerExample-Prefix.pch"; sourceTree = "<group>"; };
+		A07BCA7A19533CDC00AB88A0 /* MSMotionScrollerExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSMotionScrollerExampleAppDelegate.h; sourceTree = "<group>"; };
+		A07BCA7B19533CDC00AB88A0 /* MSMotionScrollerExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSMotionScrollerExampleAppDelegate.m; sourceTree = "<group>"; };
+		A07BCA8019533CDC00AB88A0 /* MSMotionScrollerExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSMotionScrollerExampleViewController.h; sourceTree = "<group>"; };
+		A07BCA8119533CDC00AB88A0 /* MSMotionScrollerExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSMotionScrollerExampleViewController.m; sourceTree = "<group>"; };
+		A07BCA8319533CDD00AB88A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A07BCA8A19533CDD00AB88A0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A07BCAA019533CEE00AB88A0 /* MSMotionScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMotionScroller.h; path = ../MSMotionScroller/MSMotionScroller.h; sourceTree = "<group>"; };
+		A07BCAA119533CEE00AB88A0 /* MSMotionScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMotionScroller.m; path = ../MSMotionScroller/MSMotionScroller.m; sourceTree = "<group>"; };
+		A07BCAA319533D0B00AB88A0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A07BCAA61953407200AB88A0 /* MSMotionScrollerMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMotionScrollerMenuViewController.h; sourceTree = "<group>"; };
+		A07BCAA71953407200AB88A0 /* MSMotionScrollerMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMotionScrollerMenuViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A07BCA6519533CDC00AB88A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07BCA6E19533CDC00AB88A0 /* CoreGraphics.framework in Frameworks */,
+				A07BCA7019533CDC00AB88A0 /* UIKit.framework in Frameworks */,
+				A07BCA6C19533CDC00AB88A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A07BCA5F19533CDC00AB88A0 = {
+			isa = PBXGroup;
+			children = (
+				A07BCA7119533CDC00AB88A0 /* MSMotionScroller Example */,
+				A07BCA6A19533CDC00AB88A0 /* Frameworks */,
+				A07BCA6919533CDC00AB88A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A07BCA6919533CDC00AB88A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A07BCA6819533CDC00AB88A0 /* MSMotionScrollerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A07BCA6A19533CDC00AB88A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A07BCA6B19533CDC00AB88A0 /* Foundation.framework */,
+				A07BCA6D19533CDC00AB88A0 /* CoreGraphics.framework */,
+				A07BCA6F19533CDC00AB88A0 /* UIKit.framework */,
+				A07BCA8A19533CDD00AB88A0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A07BCA7119533CDC00AB88A0 /* MSMotionScroller Example */ = {
+			isa = PBXGroup;
+			children = (
+				A07BCAA519533D4E00AB88A0 /* MSMotionScroller */,
+				A07BCA7A19533CDC00AB88A0 /* MSMotionScrollerExampleAppDelegate.h */,
+				A07BCA7B19533CDC00AB88A0 /* MSMotionScrollerExampleAppDelegate.m */,
+				A07BCA8019533CDC00AB88A0 /* MSMotionScrollerExampleViewController.h */,
+				A07BCA8119533CDC00AB88A0 /* MSMotionScrollerExampleViewController.m */,
+				A07BCAA61953407200AB88A0 /* MSMotionScrollerMenuViewController.h */,
+				A07BCAA71953407200AB88A0 /* MSMotionScrollerMenuViewController.m */,
+				A07BCAA319533D0B00AB88A0 /* Main.storyboard */,
+				A07BCA8319533CDD00AB88A0 /* Images.xcassets */,
+				A07BCA7219533CDC00AB88A0 /* Supporting Files */,
+			);
+			name = "MSMotionScroller Example";
+			path = MSMotionScrollerExample;
+			sourceTree = "<group>";
+		};
+		A07BCA7219533CDC00AB88A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A07BCA7319533CDC00AB88A0 /* MSMotionScrollerExample-Info.plist */,
+				A07BCA7419533CDC00AB88A0 /* InfoPlist.strings */,
+				A07BCA7719533CDC00AB88A0 /* main.m */,
+				A07BCA7919533CDC00AB88A0 /* MSMotionScrollerExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A07BCAA519533D4E00AB88A0 /* MSMotionScroller */ = {
+			isa = PBXGroup;
+			children = (
+				A07BCAA019533CEE00AB88A0 /* MSMotionScroller.h */,
+				A07BCAA119533CEE00AB88A0 /* MSMotionScroller.m */,
+			);
+			name = MSMotionScroller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A07BCA6719533CDC00AB88A0 /* MSMotionScrollerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07BCA9A19533CDD00AB88A0 /* Build configuration list for PBXNativeTarget "MSMotionScrollerExample" */;
+			buildPhases = (
+				A07BCA6419533CDC00AB88A0 /* Sources */,
+				A07BCA6519533CDC00AB88A0 /* Frameworks */,
+				A07BCA6619533CDC00AB88A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSMotionScrollerExample;
+			productName = MSMotionScroller;
+			productReference = A07BCA6819533CDC00AB88A0 /* MSMotionScrollerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A07BCA6019533CDC00AB88A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MSMotionScroller;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hellodev;
+			};
+			buildConfigurationList = A07BCA6319533CDC00AB88A0 /* Build configuration list for PBXProject "MSMotionScrollerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A07BCA5F19533CDC00AB88A0;
+			productRefGroup = A07BCA6919533CDC00AB88A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A07BCA6719533CDC00AB88A0 /* MSMotionScrollerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A07BCA6619533CDC00AB88A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07BCAA419533D0B00AB88A0 /* Main.storyboard in Resources */,
+				A07BCA8419533CDD00AB88A0 /* Images.xcassets in Resources */,
+				A07BCA7619533CDC00AB88A0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A07BCA6419533CDC00AB88A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07BCAA81953407200AB88A0 /* MSMotionScrollerMenuViewController.m in Sources */,
+				A07BCA7C19533CDC00AB88A0 /* MSMotionScrollerExampleAppDelegate.m in Sources */,
+				A07BCAA219533CEE00AB88A0 /* MSMotionScroller.m in Sources */,
+				A07BCA8219533CDC00AB88A0 /* MSMotionScrollerExampleViewController.m in Sources */,
+				A07BCA7819533CDC00AB88A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A07BCA7419533CDC00AB88A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A07BCA7519533CDC00AB88A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A07BCA9819533CDD00AB88A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A07BCA9919533CDD00AB88A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A07BCA9B19533CDD00AB88A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MSMotionScrollerExample/MSMotionScrollerExample-Prefix.pch";
+				INFOPLIST_FILE = "MSMotionScrollerExample/MSMotionScrollerExample-Info.plist";
+				PRODUCT_NAME = MSMotionScrollerExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A07BCA9C19533CDD00AB88A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MSMotionScrollerExample/MSMotionScrollerExample-Prefix.pch";
+				INFOPLIST_FILE = "MSMotionScrollerExample/MSMotionScrollerExample-Info.plist";
+				PRODUCT_NAME = MSMotionScrollerExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A07BCA6319533CDC00AB88A0 /* Build configuration list for PBXProject "MSMotionScrollerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07BCA9819533CDD00AB88A0 /* Debug */,
+				A07BCA9919533CDD00AB88A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07BCA9A19533CDD00AB88A0 /* Build configuration list for PBXNativeTarget "MSMotionScrollerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07BCA9B19533CDD00AB88A0 /* Debug */,
+				A07BCA9C19533CDD00AB88A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A07BCA6019533CDC00AB88A0 /* Project object */;
+}
