@@ -3,6 +3,7 @@ Purpose
 
 A simple class that enables anything that can be scrolled to be scrolled by bumping the device in a certain direction. Inspired by Amazon's Fire Phone ability to scroll without dragging. 
 
+![](http://www.hellodev.us/repos/MSMotionScroller/MSMotionScroller-V1.0.gif)
 
 Supported OS & SDK Versions
 ================
@@ -72,6 +73,6 @@ Example Project
 ================
 Check out the provided example to see how MSMotionScroller is used to scroll a table view and open a sliding menu.
 
-Contribuite!
+Contribute!
 ================
 If you wish to contribute please feel free to contact me. I'd love have you onboard!
