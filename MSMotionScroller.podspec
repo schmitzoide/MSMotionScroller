@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/schmitzoide/MSMotionScroller.git", :tag => "v1.0.0" }
   s.source_files  = "MSMotionScroller/*.{h,m}"
+  s.frameworks    = 'CoreMotion'
   s.exclude_files = "MSMotionScrollerExample.xcodeproj" , "MSMotionScrollerExample/"
   s.requires_arc = true
 end

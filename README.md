@@ -11,7 +11,7 @@ This class was designed to work with and tested on iOS 7.1, but it might quite w
 
 Installation
 ================
-To use class in an app, just drag the MSMotionScroller class files (demo files and assets are not needed) into your project and add the CoreMotion framework.
+To use class in an app, just drag the MSMotionScroller class files (demo files and assets are not needed) into your project and add the CoreMotion framework. You can use CocoaPods, too. Please refer to [this website](http://guides.cocoapods.org/using/using-cocoapods.html "Using CocoaPods") for more details.
 
 How to Use
 ================
